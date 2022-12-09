@@ -123,7 +123,6 @@ const createPerson = (name, age, gender) => {
   };
 };
 //Write Concise Declarative Functions with ES6
-// Only change code below this line
 const bicycle = {
   gear: 2,
   setGear(newGear) {
@@ -132,3 +131,11 @@ const bicycle = {
 };
 bicycle.setGear(3);
 console.log(bicycle.gear);
+//Use class Syntax to Define a Constructor Function
+class Vegetable {
+  constructor(name) {
+    this.name = name;
+  }
+}
+const carrot = new Vegetable("carrot");
+console.log(carrot.name); // Should display 'carrot'
