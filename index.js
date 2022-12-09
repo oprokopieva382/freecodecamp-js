@@ -122,3 +122,13 @@ const createPerson = (name, age, gender) => {
     gender,
   };
 };
+//Write Concise Declarative Functions with ES6
+// Only change code below this line
+const bicycle = {
+  gear: 2,
+  setGear(newGear) {
+    this.gear = newGear;
+  },
+};
+bicycle.setGear(3);
+console.log(bicycle.gear);
