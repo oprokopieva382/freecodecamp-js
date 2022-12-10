@@ -41,3 +41,7 @@ const makeServerRequest = new Promise((resolve, reject) => {
     reject("Data not received");
   }
 });
+//Handle a Fulfilled Promise with then
+makeServerRequest.then((result) => {
+  console.log(result);
+});
