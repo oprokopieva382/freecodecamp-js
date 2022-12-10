@@ -37,6 +37,10 @@
 // let myRegex = /[h-s2-6]/gi;
 // let result7 = quoteSample.match(myRegex);
 //Match Single Characters Not Specified
-let quoteSample = "3 blind mice.";
-let myRegex = /[^aeiou^0-9]/gi;
-let result = quoteSample.match(myRegex);
+// let quoteSample = "3 blind mice.";
+// let myRegex = /[^aeiou^0-9]/gi;
+// let result = quoteSample.match(myRegex);
+//Match Characters that Occur One or More Times
+let difficultSpelling = "Mississippi";
+let myRegex = /s+/g;
+let result = difficultSpelling.match(myRegex);
