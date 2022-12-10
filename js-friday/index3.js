@@ -41,6 +41,9 @@
 // let myRegex = /[^aeiou^0-9]/gi;
 // let result = quoteSample.match(myRegex);
 //Match Characters that Occur One or More Times
-let difficultSpelling = "Mississippi";
-let myRegex = /s+/g;
-let result = difficultSpelling.match(myRegex);
+// let difficultSpelling = "Mississippi";
+// let myRegex = /s+/g;
+// let result = difficultSpelling.match(myRegex);
+//Match Characters that Occur Zero or More Times
+let chewieRegex = /Aa*/;
+let result = chewieQuote.match(chewieRegex);
