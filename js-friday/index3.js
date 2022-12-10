@@ -9,5 +9,9 @@
 //
 //Ignore Case While Matching
 let myString = "freeCodeCamp";
-let fccRegex = /freeCodeCamp/i; // Change this line
+let fccRegex = /freeCodeCamp/i;
 let result = fccRegex.test(myString);
+//Extract Matches
+let extractStr = "Extract the word 'coding' from this string.";
+let codingRegex = /coding/;
+let result2 = extractStr.match(codingRegex);
