@@ -26,9 +26,13 @@ let result4 = unRegex.test(exampleStr);
 //Match Single Character with Multiple Possibilities
 let quoteSample =
   "Beware of bugs in the above code; I have only proved it correct, not tried it.";
-let vowelRegex = /[aeiou]/gi; // Change this line
-let result5 = quoteSample.match(vowelRegex); // Change this line
+let vowelRegex = /[aeiou]/gi;
+let result5 = quoteSample.match(vowelRegex);
 //Match Letters of the Alphabet
 let quoteSample1 = "The quick brown fox jumps over the lazy dog.";
-let alphabetRegex = /[a-z]/gi; // Change this line
-let result6 = quoteSample.match(alphabetRegex); // Change this line
+let alphabetRegex = /[a-z]/gi;
+let result6 = quoteSample.match(alphabetRegex);
+//Match Numbers and Letters of the Alphabet
+let quoteSample2 = "Blueberry 3.141592653s are delicious.";
+let myRegex = /[h-s2-6]/gi;
+let result7 = quoteSample.match(myRegex);
