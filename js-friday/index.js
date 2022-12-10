@@ -32,5 +32,12 @@ export { uppercaseString, lowercaseString };
 export default function subtract(x, y) {
   return x - y;
 }
-//
-const makeServerRequest = new Promise((resolve, reject) => {});
+//Complete a Promise with resolve and reject
+const makeServerRequest = new Promise((resolve, reject) => {
+  let responseFromServer;
+  if (responseFromServer) {
+    resolve("We got the data");
+  } else {
+    reject("Data not received");
+  }
+});
