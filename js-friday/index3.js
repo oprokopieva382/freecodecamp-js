@@ -15,3 +15,7 @@ let result = fccRegex.test(myString);
 let extractStr = "Extract the word 'coding' from this string.";
 let codingRegex = /coding/;
 let result2 = extractStr.match(codingRegex);
+//Find More Than the First Match
+let twinkleStar = "Twinkle, twinkle, little star";
+let starRegex = /Twinkle/gi;
+let result3 = twinkleStar.match(starRegex);
